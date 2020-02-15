@@ -99,6 +99,11 @@ static void handleNotification(const LightState& state) {
     set(WHITE_LED BREATH, 0);
     set(WHITE_LED DELAY_OFF, 0);
     set(WHITE_LED DELAY_ON, 0);
+    set(WHITE_LED BRIGHTNESS, 0);
+
+    if (!whiteBrightness) {
+        return;
+    }
 
     switch (state.flashMode) {
         case Flash::HARDWARE:
