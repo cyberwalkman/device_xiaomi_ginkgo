@@ -570,8 +570,8 @@
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
         <item>1</item>
-        <item>50</item>
-        <item>51</item>
+        <item>20</item>
+        <item>21</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
@@ -586,6 +586,12 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
+
+    <integer name="config_defaultHapticFeedbackIntensity">2</integer>
+
+    <integer name="config_defaultNotificationVibrationIntensity">2</integer>
+
+    <integer name="config_defaultRingVibrationIntensity">2</integer>
 
     <!-- Regex of wired ethernet ifaces -->
     <string translatable="false" name="config_ethernet_iface_regex">eth0</string>
