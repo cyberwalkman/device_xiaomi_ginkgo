@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ginkgo-eng \
-    lineage_ginkgo-userdebug
+    aosp_ginkgo-eng \
+    aosp_ginkgo-userdebug
